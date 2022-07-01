@@ -32,12 +32,12 @@ To train MS-PRL , run the command below:
 ```shell
 python main.py --mode train --model_name=MS-PRL
 ```
-if you want to train other model, pleace change --model_name= your model name. The model weights will be saved in checkpoint/model_name/model_name_iterations.pth folder.
+if you want to train other model, pleace change ```--model_name="your model name"```. The model weights will be saved in ```./checkpoint/model_name/model_name_iterations.pth``` folder.
 
 
 ## Test and Valid <a name="test"></a>
-run test mode, images will be saved in resutls/model_name/test_name/ and the log will be saved in logs/model_name/test/test_name/log.txt
-run valid mode, just the log will be saved in logs/model_name/test/test_name/log.txt
+run test mode, images will be saved in ```./resutls/model_name/test_name/``` and the log will be saved in ```./logs/model_name/test/test_name/log.txt```
+run valid mode, just the log will be saved in ```./logs/model_name/test/test_name/log.txt```
 
 To test MS-PRL , run the command below:
 ```shell
