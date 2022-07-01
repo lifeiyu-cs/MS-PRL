@@ -110,7 +110,7 @@ checkpoint
 │ │
 ```
 
-Citation <a name="cite"></a>
+## Citation <a name="cite"></a>
 ```BibTex
 
 ```
