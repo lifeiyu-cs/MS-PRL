@@ -52,9 +52,9 @@ python main.py --mode valid --model_name=MS-PRL
 Please pay attention to the **dataset path**, refer to the details of the [dataset](#data).
 
 ## Dataset <a name="data"></a>
-Download [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/), [Kodak25](http://r0k.us/graphics/kodak/), [Place365](http://places2.csail.mit.edu/) dataset and five standard benchmark datasets. You can also download our dataset in [here]().
+1. Download [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/), [Kodak25](http://r0k.us/graphics/kodak/), [Place365](http://places2.csail.mit.edu/) dataset and five standard benchmark datasets. You can also download our dataset in [here]().
 
-To generate halftone image using Floyd Steinberg error diffusion, run the command below:
+2. To generate halftone image using Floyd Steinberg error diffusion, run the command below:
 ```shell
 cd utils
 python halftone.py
