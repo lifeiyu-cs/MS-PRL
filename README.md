@@ -14,6 +14,7 @@ The code will release soon.
 4. [Train](#train)
 5. [Test and Valid](#test)
 6. [Model](#model)
+7. [Other](#other)
 
 ## Environment <a name="env"></a>
 ```shell
@@ -50,7 +51,7 @@ python main.py --mode valid --model_name=MS-PRL
 Please pay attention to the **dataset path**, refer to the details of the dataset (#data).
 
 ## Dataset <a name="data"></a>
-Download VOC2012, Kodak25, Place365 dataset and 5 SR benckmark dataset. You can also down our 
+Download VOC2012, Kodak25, Place365 dataset and five standard benchmark datasets. You can also down in [here]().
 The data folder should be like the format below:
 ```
 dataset
@@ -89,4 +90,9 @@ dataset
 
 ## Model <a name="model"></a>
 We provide our all pre-trained models.
-- MS-PRL, PRL-dt and other model: 
+- MS-PRL, PRL-dt and other model in [here]()
+
+## Other
+Reference Code: 
+1. https://github.com/chosj95/MIMO-UNet
+2. https://github.com/swz30/MIRNetv2
