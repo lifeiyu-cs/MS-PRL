@@ -48,10 +48,18 @@ To valid MS-PRL , run the command below:
 ```shell
 python main.py --mode valid --model_name=MS-PRL
 ```
-Please pay attention to the **dataset path**, refer to the details of the dataset (#data).
+Please pay attention to the **dataset path**, refer to the details of the [dataset](#data).
 
 ## Dataset <a name="data"></a>
-Download VOC2012, Kodak25, Place365 dataset and five standard benchmark datasets. You can also down in [here]().
+Download VOC2012, Kodak25, Place365 dataset and five standard benchmark datasets. You can also download our dataset in [here]().
+
+To generate halftone image using Floyd Steinberg error diffusion, run the command below:
+```shell
+cd utils
+python halftone.py
+python main.py --mode train --model_name=MS-PRL
+```
+
 The data folder should be like the format below:
 ```
 dataset
@@ -91,8 +99,20 @@ dataset
 ## Model <a name="model"></a>
 We provide our all pre-trained models.
 - MS-PRL, PRL-dt and other model in [here]()
+The data folder should be like the format below:
+```
+checkpoint
+├─ MSPRL
+│ ├─ MSPRL_iteration.pth
+│ │
+├─ DnCNN
+│ ├─ DnCNN_iteration.pth
+│ │
+```
 
 ## Other
 Reference Code: 
 1. https://github.com/chosj95/MIMO-UNet
 2. https://github.com/swz30/MIRNetv2
+3. https://github.com/csbhr/CNLRN
+4. DnCNN https://github.com/cszn/KAIR
