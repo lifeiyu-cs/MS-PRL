@@ -24,6 +24,7 @@ pytorch=1.10.0 torchvision=0.11.1 cudatoolkit=11.3
 ```
 
 ## Demo <a name="demo"></a>
+demo images in ```img/demo/``` folder, and the output images in ```img/``` folder.
 ```shell
 python demo.py
 ```
@@ -57,7 +58,6 @@ To generate halftone image using Floyd Steinberg error diffusion, run the comman
 ```shell
 cd utils
 python halftone.py
-python main.py --mode train --model_name=MS-PRL
 ```
 
 The data folder should be like the format below:
@@ -98,7 +98,7 @@ dataset
 
 ## Model <a name="model"></a>
 We provide our all pre-trained models.
-- MS-PRL, PRL-dt and other model in [here]()
+- MS-PRL, PRL-dt and other model in [here]().
 The data folder should be like the format below:
 ```
 checkpoint
@@ -110,9 +110,9 @@ checkpoint
 │ │
 ```
 
-## Other
+## Other <a name="other"></a>
 Reference Code: 
 1. https://github.com/chosj95/MIMO-UNet
 2. https://github.com/swz30/MIRNetv2
 3. https://github.com/csbhr/CNLRN
-4. DnCNN https://github.com/cszn/KAIR
+4. DnCNN: https://github.com/cszn/KAIR
